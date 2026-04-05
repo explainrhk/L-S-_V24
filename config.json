@@ -24,16 +24,13 @@
     "enable": false,
     "ignoreCommand": []
   },
-  "adminBot": [
-    "61576396811594",
-    "61587484619847"
-  ],
+  "adminBot": [61576396811594],
   "developer": [
-    "61573881870699",
+    "61576396811594",
     ""
   ],
   "vipuser": [
-    "61561189344919",
+    "61576396811594",
     "61567385285785"
   ],
   "reactBy": {
@@ -45,7 +42,7 @@
     "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "Lɪ ♡ Sʜɪʏᴀ 🌷",
+  "nickNameBot": "Hínatà♡ Châñ  🌷",
   "prefix": ".",
   "database": {
     "type": "sqlite",
