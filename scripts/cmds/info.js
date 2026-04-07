@@ -4,8 +4,8 @@ const fs = require("fs");
 const path = require("path");
 
 const W = 490, H = 840;
-const AVATAR1 = "https://i.imgur.com/5L1We9h.jpeg";
-const FALLBACK_AVATAR = "https://i.ibb.co/MC6bT5V/default-avatar.png"; // fallback if error
+const AVATAR1 = "not fetched";
+const FALLBACK_AVATAR = "Not fetched"; // fallback if error
 
 function formatUptime(ms) {
   const totalSeconds = Math.floor(ms / 1000);
@@ -113,9 +113,9 @@ async function drawPage1(ctx) {
   ctx.shadowBlur = 12;
 
   const lines = [
-    "Nickname: Zefox", "Age: 18+", "DOB: 11 December  2007",
+    "Nickname: Rakib", "Age: 16+", "DOB: Unknown",
     "Gender: Male", "Religion: Islam", "Nationality: Bangladeshi",
-    "Location: Dhaka,Gazipur ", "Class: 10",
+    "Location: Saidpur,Nilphamary", "Class: 10",
     `Time: ${new Date().toLocaleString("en-IN", { timeZone: "Asia/Dhaka" })}`
   ];
   let y = 400;
@@ -137,7 +137,7 @@ module.exports = {
     name: "info",
     aliases: ["in4", "ownerinfo"],
     version: "1.0",
-    author: "Zefox",
+    author: "Rakib",
     countDown: 5,
     role: 0,
     shortDescription: "Owner info",
